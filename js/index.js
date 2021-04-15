@@ -12,11 +12,9 @@ function generarTabla(json) {
     const tdNumero=document.createElement('td')
       tdNumero.textContent=json.cartas[i].numero
       tr.appendChild(tdNumero)
-    const tr=document.createElement('tr')
     const tdCarta=document.createElement('td')
       tdCarta.textContent=json.cartas[i].carta
       tr.appendChild(tdCarta)
-    const tr=document.createElement('tr')
     const tdCant=document.createElement('td')
       tdCant.textContent=json.cartas[i].cant
       tr.appendChild(tdCant)
@@ -24,4 +22,4 @@ function generarTabla(json) {
   }
 
 }
-cargarTabla()
+document.getElementById('boton')
