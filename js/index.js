@@ -22,4 +22,4 @@ function generarTabla(json) {
   }
 
 }
-document.getElementById('boton')
+document.getElementById("boton").onclick=cargarTabla;
